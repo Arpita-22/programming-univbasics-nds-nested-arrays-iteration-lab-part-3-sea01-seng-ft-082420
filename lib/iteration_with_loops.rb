@@ -12,7 +12,8 @@ def join_nested_strings(src)
       end
       element_index +=1
     end
+    arr << string
    row_index += 1
   end
-  string
+  arr.join
 end
